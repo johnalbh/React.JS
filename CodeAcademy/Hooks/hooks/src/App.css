@@ -39,7 +39,7 @@
 
 
 html, body {
-	margin: 4px;
+	margin: 3px;
 	height: 100%;
   background-color: #ffffff;
   text-align: center;
@@ -118,8 +118,10 @@ li h2 {
   background-color: NavajoWhite;
   margin: 0;
   padding: 4px;
+  color: #000;
 }
 
 li p {
   margin: 8px;
+  color: #000;
 }
