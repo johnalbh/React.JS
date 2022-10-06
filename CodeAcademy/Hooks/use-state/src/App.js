@@ -1,5 +1,7 @@
 import './App.css';
 import ColorPicker from './Components/ColorPicker';
+import TextInput from './Components/TextInput';
+import ToogleLoading from './Components/TootgleLoading';
 import logo from './logo.svg';
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
       </header>
       <main>
         <ColorPicker />
+        <ToogleLoading />
+        <TextInput />
       </main>
     </div>
   );

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 export default function ColorPicker() {
-  const [color, setColor] = useState();
+  const [color, setColor] = useState('Tomato');
   const divStyle = { backgroundColor: color, color: 'white' };
 
   return (
